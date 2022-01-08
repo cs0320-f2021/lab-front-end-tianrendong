@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Javascript Lab: Part 1!</title>
+    <link rel="stylesheet" href="stencil.css">
+
+</head>
+<body>
+    <div style="padding: 50px">
+
+        <!--    --------------------------------------------------------------------------------------  ;-->
+        <h2>Part 1: Calculator</h2>
+        <hr>
+        <br>
+        <input id="first-input" type="number" placeholder="first number">
+        +
+        <input id="second-input" type="number" placeholder="second number">
+        =
+        <span id="total"></span>
+        <br> <!--  creates a new line!-->
+        <button id="compute-button"> compute </button>
+        <!--    --------------------------------------------------------------------------------------  ;-->
+
+        <h2>Part 2: Shopping Cart</h2>
+        <hr>
+        <br>
+        <div class="store-item" id="item-1" data-price="5">
+            <div class="img-container">
+            <img class="img-fluid" src="duck-1.jpg">
+            </div>
+            <p> $5.00</p>
+            <button data-for="item-1" class="cart-button"> Add to cart </button>
+
+        </div>
+        <div class="store-item" id="item-2" data-price="4">
+            <div class="img-container">
+                <img class="img-fluid" src="duck-2.jpg">
+            </div>
+            <p> $4.00</p>
+            <button data-for="item-2" class="cart-button"> Add to cart </button>
+
+        </div>
+        <div class="store-item" id="item-3" data-price="3">
+            <div class="img-container">
+                <img class="img-fluid" src="duck-3.jpg">
+            </div>
+            <p> $3.00</p>
+            <button data-for="item-3" class="cart-button"> Add to cart </button>
+
+        </div>
+
+        <div class="cart" >
+            <h4>My Cart: </h4>
+            <div id="my-cart">
+
+            </div>
+
+            <p class="cart-total"> Total: <span id="cart-total"> $0.00 </span></p>
+        </div>
+
+
+        <!--    --------------------------------------------------------------------------------------  ;-->
+
+    </div>
+
+    <script src="assignment.js"></script>
+</body>
+</html>

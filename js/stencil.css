@@ -1,0 +1,38 @@
+
+.img-fluid {
+    width: 100%;
+    height: auto;
+}
+
+.img-container {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    margin: 5px;
+
+}
+
+.store-item {
+    border: 1px solid black;
+    display: inline-block;
+    text-align: center;
+    padding: 3px;
+}
+
+.cart {
+    width: 200px;
+    height: 200px;
+    border: 2px dotted blue;
+    margin: 5px;
+    text-align: center;
+    position: relative;
+}
+
+.cart-total {
+    position: absolute;
+    bottom: 0;
+}
+
+h2 {
+    margin-top: 30px;
+}
